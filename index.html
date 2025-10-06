@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RESUME | Sandeep G M</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>RESUME</h1>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="biodata.html">Bio-data</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <img src="profile.jpg" alt="Profile Photo" class="profile-pic">
+      <div class="intro-text">
+        <h2> Sandeep G M </h2>
+        <p><strong>Email:</strong> sandeepgm998640@gmail.com</p>
+        <p><strong>Phone:</strong> +91 63602 66228</p>
+        <p><strong>Address:</strong> Malebennur, Karnataka, India</p>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2>Career Objective</h2>
+      <p>To obtain a responsible position in a reputable organization where I can apply my technical and interpersonal skills for continuous learning and career growth.</p>
+    </section>
+
+    <section class="resume-section">
+      <h2>Educational Qualifications</h2>
+      <table>
+        <tr><th>Course</th><th>Institution</th><th>Year</th><th>Percentage</th></tr>
+        <tr><td>B.E (CSE)</td><td>VTU University</td><td>2026</td><td>55%</td></tr>
+        <tr><td>PUC</td><td>Karnataka Board</td><td>2022</td><td>55%</td></tr>
+        <tr><td>SSLC</td><td>Karnataka Board</td><td>2020</td><td>55%</td></tr>
+      </table>
+    </section>
+
+    <section class="resume-section">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+      </ul>
+    </section>
+
+    <section class="resume-section">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Portfolio Website:</strong> Created a personal portfolio using HTML, CSS, and JavaScript.</li>
+        <li><strong>Student Management System:</strong> Developed using Python and MySQL for academic record management.</li>
+      </ul>
+    </section>
+
+    <section class="resume-section">
+      <h2>Strengths</h2>
+      <ul>
+        <li>Quick Learner</li>
+      </ul>
+    </section>
+
+    <section class="resume-section">
+      <h2>Declaration</h2>
+      <p>I hereby declare that all the above information is true to the best of my knowledge and belief.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Sandeep G M | All Rights Reserved</p>
+  </footer>
+
+  <!-- jQuery Animation -->
+  <script>
+    $(document).ready(function(){
+      $("h1").hide().fadeIn(1500);
+      $(".profile-pic").hover(
+        function(){ $(this).css("transform", "scale(1.05)"); },
+        function(){ $(this).css("transform", "scale(1)"); }
+      );
+    });
+  </script>
+</body>
+</html>
